@@ -2,30 +2,38 @@
 
 Language used: **Go**
 
-## Monty Hall problem simulation:
+## Installation
 
 ```bash
-go get -v https://github.com/stormcrows/prob-sim/montyhall
-montyhall
+go get github.com/stormcrows/prob-sim/...
 ```
 
 or
 
 ```bash
 git clone https://github.com/stormcrows/prob-sim
+```
+
+## Monty Hall problem simulation:
+
+```bash
+$GOPATH/bin/montyhall
+```
+
+or
+
+```bash
 go run prob-sim/montyhall/main.go
 ```
 
 ## Prisoners problem simulation:
 
 ```bash
-go get -v https://github.com/stormcrows/prob-sim/prisoners
-prisoners
+$GOPATH/bin/prisoners
 ```
 
 or
 
 ```bash
-git clone https://github.com/stormcrows/prob-sim
 go run prob-sim/prisoners/main.go
 ```
